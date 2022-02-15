@@ -1,22 +1,22 @@
-# cra-template-redux-typescript
+# cra-template-moduleflow
 
 ![build status](https://img.shields.io/github/workflow/status/reduxjs/cra-template-redux-typescript/Tests/master?style=flat-square)
 
-The official Redux+TS template for [Create React App](https://github.com/facebook/create-react-app).
+The moduleflow template for [Create React App](https://github.com/facebook/create-react-app), intended to be used in conjuction with [moduleflow-react-scripts](https://github.com/ashea29/moduleflow-react-scripts).
 
-To use this template within your project, add `--template redux-typescript` when creating a new app.
+To use this template within your project, add `--template moduleflow` when creating a new app.
 
 For example:
 
 ```sh
-npx create-react-app my-app --template redux-typescript
+npx create-react-app my-app --template moduleflow
 
 # or
 
-yarn create react-app my-app --template redux-typescript
+yarn create react-app my-app --template moduleflow
 ```
 
-Cloning this repo pulls down the Redux template only; not a bundled and configured Create React App.
+Cloning this repo pulls down the moduleflow template only; not a bundled and configured Create React App.
 
 For more information, please refer to:
 
