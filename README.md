@@ -1,6 +1,5 @@
 # cra-template-moduleflow
 
-![build status](https://img.shields.io/github/workflow/status/reduxjs/cra-template-redux-typescript/Tests/master?style=flat-square)
 
 The moduleflow template for [Create React App](https://github.com/facebook/create-react-app), intended to be used in conjuction with [moduleflow-react-scripts](https://github.com/ashea29/moduleflow-react-scripts).
 
