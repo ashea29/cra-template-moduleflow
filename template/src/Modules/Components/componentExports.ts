@@ -1,4 +1,4 @@
-import ExampleComponent from './componentModules/moduleExample/ExampleLoadable'
+import ExampleComponent from './exampleComponent/ExampleLoadable'
 
 
 export const Example = ExampleComponent
