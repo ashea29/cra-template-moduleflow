@@ -3,15 +3,13 @@ import pTimeout from 'p-timeout';
 import pMinDelay from 'p-min-delay'
 
 
-const timeoutComponentPath = '../../../utilities/components/Timeout'
-const loaderComponentPath = '../../../utilities/components/FullscreenSpinner'
 
 const FallbackComponent = loadable(() =>
-  pMinDelay(import(`${loaderComponentPath}`), 300)
+  pMinDelay('Loading...', 300)
 )
 
 const HomeLoadable = loadable(() =>
-  pTimeout(import('./Home'), 10000, () => import(`${timeoutComponentPath}`)), {
+  pTimeout(import('./Home'), 10000, 'Element failed to load'), {
     fallback: <FallbackComponent />
   }
 )
