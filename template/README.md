@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Moduleflow](https://github.com/ashea29/cra-template-moduleflow) template.
 
 ## Available Scripts
 
@@ -36,6 +36,61 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## moduleflow-react-scripts
+
+If you used the [moduleflow-react-scripts](https://github.com/ashea29/moduleflow-react-scripts) package when bootstrapping the project with Create React App, you will also have access to the following commands: 
+
+### `yarn configureProject`
+
+Configures project based on options selected, either by including them in the command or via the CLI prompt.<br />
+
+##### *Available Options*:
+
+##### `-s` or `--styled` 
+Uses styled components for styling.
+
+##### `-c` or `--css`
+Uses CSS for styling.
+
+##### `--scss`
+Uses SCSS for styling.
+
+##### `-t` or `--theme`
+Adds some minimal theme and global style presets.
+
+##### `-u` or `--utilities`
+Adds minimal utility components and styles
+
+##### `-a` or `--auth`
+Add Redux boilerplate for authentication.
+
+
+### `yarn createModule`
+
+Creates a new module based on project config settings stored in the package.json file (after running the 'configureProject' script).<br />
+
+##### *Available Options*:
+
+##### `-v` or `--view` 
+Module is a view or "page".
+
+##### `-c` or `--component`
+Module is a component.
+
+##### `-r` or `--root`
+Uses SCSS for styling.
+
+##### `-p` or `--protected`
+Module is a protected route.
+
+##### `-e` or `--exact`
+Module route should have the "exact" prop.
+
+
+### `yarn createEntity`
+
+Creates a new entity state slice in the Redux store and updates the appropriate reducer.
 
 ## Learn More
 

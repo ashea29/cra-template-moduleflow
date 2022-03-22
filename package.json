@@ -1,6 +1,6 @@
 {
-  "name": "cra-template-redux-typescript",
-  "version": "1.0.2",
+  "name": "cra-template-moduleflow",
+  "version": "1.0.0",
   "scripts": {
     "format": "prettier --write ./template/src/**/*.{ts,tsx,css}",
     "lint": "eslint './template/src/**/*.{ts,tsx}'",
@@ -16,18 +16,18 @@
     "reduxjs",
     "react-redux"
   ],
-  "description": "The official Redux+TS template for Create React App",
+  "description": "The 'moduleflow' template for Create React App, intended for use with 'moduleflow-react-scripts'",
   "main": "template.json",
   "repository": {
     "type": "git",
-    "url": "https://github.com/reduxjs/cra-template-redux-typescript.git"
+    "url": "https://github.com/ashea29/cra-template-moduleflow"
   },
   "license": "MIT",
   "engines": {
     "node": ">=8.10"
   },
   "bugs": {
-    "url": "https://github.com/reduxjs/cra-template-redux-typescript/issues"
+    "url": "https://github.com/ashea29/cra-template-moduleflow/issues"
   },
   "files": [
     "template",
